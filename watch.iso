@@ -37,6 +37,7 @@ void loop() {
 		matrix.print("DIMENSIONAL DEVIATION");
 		matrix.writeDisplay();
 		delay(100);
+		}
 		matrix.setTextSize(1);
 		matrix.setTextWrap(false);  // we dont want text to wrap so it scrolls nicely
 		matrix.setTextColor(LED_ON);
@@ -46,4 +47,7 @@ void loop() {
 		matrix.print(randNumber);
 		matrix.writeDisplay();
 		delay(100);
+		}
+	}
 }
+
